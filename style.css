@@ -40,6 +40,26 @@ body{
 .reciclaje-lista strong {
   color: #007f4f; /* Verde Eco */
 }
+.tabla-reciclaje {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px; /* espacio entre filas */
+}
+
+.tabla-reciclaje td {
+  background: #f9fdfb;
+  border-radius: var(--radius);
+  padding: 1rem;
+  vertical-align: top;
+  box-shadow: var(--shadow);
+}
+
+.tabla-reciclaje .icono {
+  width: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--main-green);
+}
 
 .skip-link{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
 .skip-link:focus{left:1rem;top:1rem;width:auto;height:auto;background:#fff;padding:.5rem 1rem;border-radius:.5rem;box-shadow:var(--shadow)}
